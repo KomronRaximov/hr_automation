@@ -1,0 +1,2 @@
+# Linux server runtime dependency for systemd service.
+gunicorn==22.0.0

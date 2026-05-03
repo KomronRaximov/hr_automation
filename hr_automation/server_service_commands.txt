@@ -1,0 +1,24 @@
+Install and start the service:
+
+chmod +x server_install_service.sh
+./server_install_service.sh
+
+Check status:
+
+sudo systemctl status hr-automation
+
+Watch logs:
+
+sudo journalctl -u hr-automation -f
+
+Restart after code changes:
+
+./server_install_service.sh
+
+Stop:
+
+sudo systemctl stop hr-automation
+
+Disable autostart:
+
+sudo systemctl disable hr-automation
