@@ -26,6 +26,15 @@ Open `http://127.0.0.1:5173`.
 
 On Windows, you can also double-click `start.bat` from the project root to install missing dependencies, run migrations, start both servers, and open the app. The helper files `run_backend.bat` and `run_frontend.bat` are used by `start.bat`.
 
+On a Linux server, upload the project and run:
+
+```bash
+chmod +x server_start.sh
+./server_start.sh
+```
+
+Default server URL: `http://185.128.105.36:8005/`.
+
 Main frontend pages:
 
 - `/upload` - upload candidate CVs
