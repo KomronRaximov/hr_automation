@@ -1,0 +1,4 @@
+# Optional semantic AI dependencies.
+# Install this only if you specifically want sentence-transformers ranking.
+# It is not required for the app to run because the backend has a lightweight CPU fallback.
+sentence-transformers==2.7.0

@@ -35,6 +35,8 @@ chmod +x server_start.sh
 
 Default server URL: `http://185.128.105.36:8005/`.
 
+CUDA is not required. The default backend install avoids `sentence-transformers` and uses a lightweight CPU fallback for ranking. To enable the heavier semantic model later, install `backend/requirements-ai.txt` inside the backend virtual environment.
+
 Main frontend pages:
 
 - `/upload` - upload candidate CVs
